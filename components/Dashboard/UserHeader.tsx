@@ -13,6 +13,7 @@ import { useSearchParams } from "next/navigation"
 import Link from 'next/link'
 import SideContent from './SideMenu/SideContent'
 import { CiMenuBurger } from "react-icons/ci";
+import { CreateSheetContent } from './CreateSheetContent'
 
 
 const UserHeader = () => {
@@ -36,17 +37,9 @@ const UserHeader = () => {
                             <IoAddOutline />
                         </div>
                     </SheetTrigger>
-                    <SheetContent>
-                        <SheetHeader>
-                            <SheetTitle>Create Shorten URL</SheetTitle>
-                            <SheetDescription>
-                                Create a New Shorten URL here. Click submit when you're done.
-                            </SheetDescription>
-                        </SheetHeader>
 
-                        <CreateURL />
-
-                    </SheetContent>
+                   <CreateSheetContent />
+                   
                 </Sheet>
 
 

@@ -4,6 +4,8 @@ import Link from 'next/link'
 import { GoPlus } from "react-icons/go";
 import { MdOutlineCloudDownload } from "react-icons/md";
 import TableComp from '@/components/Dashboard/table';
+import { Sheet, SheetTrigger } from '@/components/ui/sheet';
+import { CreateSheetContent } from '@/components/Dashboard/CreateSheetContent';
 
 const dataset = [
     {
@@ -31,8 +33,16 @@ const page = () => {
         <>
             <h4 className="text-lg mb-6 text-slate-700 font-medium">Shorten Links</h4>
             <div className="flex gap-3">
-                <Link href='#' className='bg-sky-100 text-sky-900 rounded-full text-xs font-normal px-5 py-3 flex gap-3 items-center'>
-                    <GoPlus /> <div className="sm:block hidden">Create a new one</div></Link>
+                <Sheet>
+                    <SheetTrigger asChild>
+                        <button className='bg-sky-100 text-sky-900 rounded-full text-xs font-normal px-5 py-3 flex gap-3 items-center'>
+                            <GoPlus /> <div className="sm:block hidden">Create a new one</div></button>
+                    </SheetTrigger>
+
+                    <CreateSheetContent />
+
+                </Sheet>
+
                 <Link href='#' className='bg-slate-100 text-stalte-900 rounded-full text-xs font-normal px-4 py-3 flex gap-3 items-center'>
                     <MdOutlineCloudDownload /> Generate Report</Link>
             </div>

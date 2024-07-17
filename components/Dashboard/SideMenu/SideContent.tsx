@@ -42,7 +42,8 @@ const SideContent = () => {
     };
     return (
         <>
-            <div>
+            <div className="flex flex-col gap-3 mt-3">
+                <Link href='/' className="font-bold text-xl no-underline text-slate-700 pl-2">Shortify</Link>
                 {list.map((item, index) => (
                     <Link key={index} href={item.link} className={`w-full h-8 text-sm flex items-center gap-2 pl-3 rounded text-slate-700 my-1 no-underline ${isActive(item.link) ? 'bg-white' : ''}`}>
                         {item.icon} {item.title}
