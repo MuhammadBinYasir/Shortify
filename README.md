@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shortify - URL Shortener Dashboard UI
 
-## Getting Started
+Welcome to Shortify! This project is a frontend dashboard UI design for a URL shortener application, similar to bit.ly. It is designed to provide a clean and intuitive interface for users to manage and shorten their URLs. ``Please note that this project is a frontend-only design and does not include backend functionality for actually shortening URLs.``
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. Clean and Modern UI
+- Sleek, modern design that is both user-friendly and visually appealing.
+- Responsive layout that adapts to various screen sizes for a seamless user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Dashboard Overview
+- Comprehensive dashboard displaying all shortened URLs.
+- Key metrics and statistics prominently featured, such as click counts and creation dates.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. URL Management
+- Intuitive interface for adding, editing, and deleting URLs.
+- Placeholder for backend integration to handle actual URL shortening.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 4. URL Details Page
+- Detailed view of each shortened URL with analytics and performance metrics.
+- Insights on total clicks, geographic distribution, and top referrers.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Installation Guide
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
+- Node.js (v14 or later)
+- npm (v6 or later)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Getting Started
 
-## Deploy on Vercel
+1. **Clone the Repository**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/MuhammadBinYasir/Shortify.git
+   cd Shortify
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. **Install Dependencies**
+
+   ```bash
+   npm install
+
+3. **Run the Application**
+
+   ```bash
+   npm run dev
