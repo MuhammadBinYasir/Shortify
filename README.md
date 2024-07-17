@@ -2,6 +2,9 @@
 
 Welcome to Shortify! This project is a frontend dashboard UI design for a URL shortener application, similar to bit.ly. It is designed to provide a clean and intuitive interface for users to manage and shorten their URLs. ``Please note that this project is a frontend-only design and does not include backend functionality for actually shortening URLs.``
 
+Created With ❤️ using:
+``Next.Js`` ``NodeJs`` ``Typescript`` ``Tailwind CSS`` ``Shadcn UI``
+
 ## Features
 
 ### 1. Clean and Modern UI
@@ -19,7 +22,6 @@ Welcome to Shortify! This project is a frontend dashboard UI design for a URL sh
 ### 4. URL Details Page
 - Detailed view of each shortened URL with analytics and performance metrics.
 - Insights on total clicks, geographic distribution, and top referrers.
-
 
 ## Installation Guide
 
